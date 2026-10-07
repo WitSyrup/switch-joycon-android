@@ -2,6 +2,8 @@
 
 作者与维护者：**witsyrup**。版本：**1.0**。类型：Vector / Xposed 插件。
 
+[下载 V+ 补丁 APK 与源码包](https://github.com/WitSyrup/switch-joycon-android/releases/tag/bundle-2026.10.08)。下文 outputs 为本地目录，在线安装包请从 Release 附件获取。
+
 ## 解决什么问题
 
 Switchroot 的原装合并 Joy-Con 可能已有振动器，但 Moonlight V+ 的震动能力判断仍将其排除。本补丁修正 V+ 的 `hasRumbleCapability` 检测，让满足条件的 Joy-Con 可以进入原有震动处理流程。

@@ -1,5 +1,6 @@
 # 本地归档、依赖和安装包不提交，安装包发布到 Releases
 /archive/
+/release-assets/
 **/outputs/
 **/classes/
 **/daemon-classes/

@@ -2,6 +2,8 @@
 
 作者：**witsyrup**。推荐版本：**Magisk 1.2**。
 
+[下载 Power 1.2 Magisk ZIP](https://github.com/WitSyrup/switch-joycon-android/releases/tag/bundle-2026.10.08)。下文 outputs 为本地目录，在线安装包请从 Release 附件获取。
+
 ## 解决什么问题
 
 Switchroot 熄屏后未必立即深睡，Joy-Con 可能保持连接并亮灯。本模块提供熄屏灭灯与仅 Home 请求亮屏，并允许选择真正断开滑轨的模式。模块不解除安全锁屏，不持有 CPU 唤醒锁。

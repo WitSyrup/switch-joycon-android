@@ -53,4 +53,4 @@ git config --global --add safe.directory "//Syrupnas/d/SWITCH/anzhuo15/switch-jo
 
 源代码修改后 git add、commit、push；发布新标签及附件。保留私有 APK 签名密钥用于后续更新，密钥留在本地或私有安全存储中。改用新密钥签名时，需要告知旧用户卸载再安装。
 
-本次只完成本地整理，没有创建远程仓库或上传文件。
+用户授权后，公开仓库已创建并上传源码：https://github.com/WitSyrup/switch-joycon-android 。预发布版使用标签 bundle-2026.10.08，安装包上传到 Releases。不添加项目整体 LICENSE。

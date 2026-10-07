@@ -2,6 +2,8 @@
 
 作者与维护者：**witsyrup**
 
+**[下载预发布版安装包](https://github.com/WitSyrup/switch-joycon-android/releases/tag/bundle-2026.10.08)**。仓库用于查看源码；APK、Magisk ZIP 和校验清单在 Releases 下载。项目说明中 `outputs/` 指本地整理目录，GitHub 仓库不提交安装包。
+
 适用于本项目测试的 Switch OLED、Switchroot Android 15 与原装滑轨 Joy-Con。其他 ROM、蓝牙连接及第三方手柄未验证。
 
 | 项目 | 解决的问题 | 当前版本 | 环境 |

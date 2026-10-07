@@ -2,6 +2,8 @@
 
 作者：**witsyrup**。推荐版本：**JoyCon Home Vector 2.1**。
 
+[下载 APK 与配套 Magisk ZIP](https://github.com/WitSyrup/switch-joycon-android/releases/tag/bundle-2026.10.08)。下文 outputs 为本地目录，在线安装包请从 Release 附件获取。
+
 ## 解决什么问题
 
 Switchroot 默认将 Joy-Con Home 作为安卓主页键，Moonlight 串流时会离开游戏。截图键又会在底层切换摇杆鼠标模式。本插件在指定应用里将 Home 改为手柄 Guide，将截图键改为键盘 F12，方便在电脑端绑定截图或其他操作。未选中的应用保留原行为。
