@@ -1,0 +1,27 @@
+# 本地归档、依赖和安装包不提交，安装包发布到 Releases
+/archive/
+**/outputs/
+**/classes/
+**/daemon-classes/
+**/dex/
+**/*.class
+**/*.dex
+**/*.apk
+**/*.jks
+**/*.keystore
+**/r8.jar
+**/xposed-api.jar
+**/ui.xml
+**/ui.png
+**/screen.png
+**/current.png
+**/result.png
+**/moonlight.png
+**/test-*.png
+**/guide-result.png
+**/*.bak
+**/PhoneWindowManager.java
+**/NativeInputManagerService.java
+**/WindowManagerPolicyConstants.java
+**/joycon-serdev.c
+**/original.kl

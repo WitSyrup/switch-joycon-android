@@ -1,0 +1,6 @@
+id=switch_joycon_power
+name=Switch Joy-Con Power
+version=1.2
+versionCode=3
+author=witsyrup
+description=仅 Home 键请求亮屏，熄屏关闭手柄灯；后台退出自动恢复；操作按钮恢复 Home 唤醒模式。

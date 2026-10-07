@@ -1,0 +1,13 @@
+Verified 2026-10-08, Switchroot Android 15 / official serial Joy-Cons.
+Installed local.joycon.home 2.1 (versionCode 4), no launcher Activity.
+Vector scope: system, com.limelight.qiin, com.limelight.unofficialA.
+Companion: joycon_keys_access (two SELinux rules + one-shot boot script).
+SELinux remains Enforcing.
+After final reboot: F12 DOWN/UP logged, joycond getRsmouse returned 0.
+Outside scoped app: two Capture gestures toggled mouse state 0 -> 1 -> 0.
+Windows host received these physical Capture-correlated F12 pairs during stream:
+Android 01:48:26.367 DOWN / 01:48:26.618 UP -> Windows 01:48:26.443 / 01:48:26.684
+Android 01:48:27.674 DOWN / 01:48:27.968 UP -> Windows 01:48:27.749 / 01:48:28.043
+Android 01:48:32.637 DOWN / 01:48:32.899 UP -> Windows 01:48:32.708 / 01:48:32.971
+Native mouse switching is reset at the Java policy boundary; see README for timing limitation.
+No vendor binary/keylayout replaced. No independent UI app or resident daemon added.

@@ -1,0 +1,6 @@
+id=joycon_keys_access
+name=Joy-Con Keys - service access
+version=2.1
+versionCode=4
+author=witsyrup
+description=配合 Vector 按应用将截图键映射为 F12，允许复位底层鼠标模式；无常驻服务。

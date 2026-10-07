@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="local.joycon.home" android:versionCode="4" android:versionName="2.1">
+ <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="29"/>
+ <application android:label="Joy-Con Home" android:allowBackup="false" android:icon="@drawable/icon">
+  <meta-data android:name="xposedmodule" android:value="true"/>
+  <meta-data android:name="xposeddescription" android:value="作者：witsyrup。作用域：保留系统框架，勾选需要的应用。所选应用内 Home → 手柄 Guide，截图键 → 键盘 F12，并复位鼠标模式。其他应用保留原行为。更改作用域后强行停止并重开目标应用；首次启用或更新模块需重启系统。无独立界面。"/>
+  <meta-data android:name="xposedminversion" android:value="82"/>
+  <meta-data android:name="xposedscope" android:resource="@array/scope"/>
+ </application>
+</manifest>
